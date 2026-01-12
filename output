@@ -1,0 +1,1653 @@
+[2026-01-12 14:47:31 UTC] vcs -full64 -licqueue +incdir+$UVM_HOME/src $UVM_HOME/src/uvm.sv $UVM_HOME/src/dpi/uvm_dpi.cc -CFLAGS -DVCS '-timescale=1ns/1ns' '+vcs+flush+all' '+warn=all' '-sverilog' design.sv testbench.sv  && ./simv +vcs+lic+wait  
+                         Chronologic VCS (TM)
+       Version U-2023.03-SP2_Full64 -- Mon Jan 12 09:47:32 2026
+
+                    Copyright (c) 1991 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Parsing design file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/uvm.sv'
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/macros/uvm_version_defines.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/macros/uvm_global_defines.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/macros/snps_macros.svp'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/macros/uvm_message_defines.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/macros/uvm_phase_defines.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/macros/uvm_object_defines.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/macros/uvm_printer_defines.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/macros/uvm_tlm_defines.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm1/uvm_tlm_imps.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/macros/uvm_tlm_defines.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/macros/uvm_sequence_defines.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/macros/uvm_callback_defines.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/macros/uvm_reg_defines.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/macros/uvm_deprecated_defines.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/uvm_macros.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/dpi/uvm_dpi.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/dpi/uvm_hdl.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/dpi/uvm_dpi.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/dpi/uvm_svcmd_dpi.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/dpi/uvm_dpi.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/dpi/uvm_regex.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/dpi/uvm_dpi.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_coreservice.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_version.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_object_globals.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_misc.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_object.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_pool.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_queue.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_factory.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_registry.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_spell_chkr.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_resource.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_resource_specializations.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_resource_db.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_config_db.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_printer.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_comparer.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_packer.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_links.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_tr_database.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_tr_stream.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_recorder.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_event_callback.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_event.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_barrier.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_callback.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/uvm_macros.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_callback.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_report_message.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_report_catcher.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_report_server.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_report_handler.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_report_object.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_transaction.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_phase.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_domain.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_bottomup_phase.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_topdown_phase.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_task_phase.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_common_phases.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_runtime_phases.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_component.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_root.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_component.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_objection.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_heartbeat.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_globals.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_cmdline_processor.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_traversal.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/dap/uvm_dap.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/dap/uvm_set_get_dap_base.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/dap/uvm_dap.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/dap/uvm_simple_lock_dap.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/dap/uvm_dap.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/dap/uvm_get_to_lock_dap.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/dap/uvm_dap.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/dap/uvm_set_before_get_dap.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/dap/uvm_dap.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm1/uvm_tlm_ifs.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm1/uvm_sqr_ifs.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_port_base.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm1/uvm_tlm_imps.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm1/uvm_imps.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm1/uvm_ports.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm1/uvm_exports.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm1/uvm_analysis_port.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm1/uvm_tlm_fifo_base.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm1/uvm_tlm_fifos.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm1/uvm_tlm_req_rsp.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm1/uvm_sqr_connections.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/comps/uvm_pair.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/comps/uvm_policies.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/comps/uvm_in_order_comparator.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/comps/uvm_algorithmic_comparator.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/comps/uvm_random_stimulus.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/comps/uvm_subscriber.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/comps/uvm_monitor.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/comps/uvm_driver.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/comps/uvm_push_driver.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/comps/uvm_scoreboard.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/comps/uvm_agent.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/comps/uvm_env.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/comps/uvm_test.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/comps/uvm_comps.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/seq/uvm_sequence_item.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/seq/uvm_sequencer_base.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/seq/uvm_sequencer_analysis_fifo.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/seq/uvm_sequencer_param_base.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/seq/uvm_sequencer.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/seq/uvm_push_sequencer.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/seq/uvm_sequence_base.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/seq/uvm_sequence.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/seq/uvm_sequence_library.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/seq/uvm_sequence_builtin.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/seq/uvm_seq.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm2/uvm_tlm2_defines.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm2/uvm_tlm2_time.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm2/uvm_tlm2_generic_payload.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm2/uvm_tlm2_ifs.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm2/uvm_tlm2_imps.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm2/uvm_tlm2_ports.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm2/uvm_tlm2_exports.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm2/uvm_tlm2_sockets_base.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm2/uvm_tlm2_sockets.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_item.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_adapter.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_predictor.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_sequence.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_cbs.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_backdoor.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_field.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_vreg_field.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_indirect.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_fifo.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_file.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_mem_mam.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_vreg.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_mem.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_map.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_block.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/sequences/uvm_reg_hw_reset_seq.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/sequences/uvm_reg_bit_bash_seq.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/sequences/uvm_mem_walk_seq.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/sequences/uvm_mem_access_seq.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/sequences/uvm_reg_access_seq.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/sequences/uvm_reg_mem_shared_access_seq.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/sequences/uvm_reg_mem_built_in_seq.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/sequences/uvm_reg_mem_hdl_paths_seq.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/snps_uvm_reg_bank.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/vcs/vcs_uvm_alt.sv'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/uvm_pkg.sv'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/uvm.sv'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/vcs/snps_reg.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/uvm.sv'.
+Parsing design file 'design.sv'
+Parsing design file 'testbench.sv'
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+testbench.sv, 4
+$unit
+  Package 'uvm_pkg' already wildcard imported. 
+  Ignoring uvm_pkg::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/uvm_macros.svh'.
+Back to file 'testbench.sv'.
+Parsing included file 'interface.sv'.
+Back to file 'testbench.sv'.
+Parsing included file 'sequence_item.sv'.
+Back to file 'testbench.sv'.
+Parsing included file 'sequence.sv'.
+Back to file 'testbench.sv'.
+Parsing included file 'sequencer.sv'.
+Back to file 'testbench.sv'.
+Parsing included file 'driver.sv'.
+Back to file 'testbench.sv'.
+Parsing included file 'monitor.sv'.
+Back to file 'testbench.sv'.
+Parsing included file 'agent.sv'.
+Back to file 'testbench.sv'.
+Parsing included file 'scoreboard.sv'.
+Back to file 'testbench.sv'.
+Parsing included file 'enivornment.sv'.
+Back to file 'testbench.sv'.
+Parsing included file 'test.sv'.
+Back to file 'testbench.sv'.
+Top Level Modules:
+       top
+TimeScale is 1 ns / 1 ns
+
+Warning-[SV-ICHU] Illegal class handle usage
+/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/vcs/snps_reg.svh, 180
+$unit
+  Illegal '!' operator on class handle 'rg'.
+  As per LRM(P1800-2009), section 8.4. only ==, !=, ===, !== and conditional 
+  operator are allowed operators on class handles.
+  Source Expression: (!rg)
+
+
+Warning-[SV-ICHU] Illegal class handle usage
+/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/vcs/snps_reg.svh, 247
+$unit
+  Illegal '!' operator on class handle 'rg'.
+  As per LRM(P1800-2009), section 8.4. only ==, !=, ===, !== and conditional 
+  operator are allowed operators on class handles.
+  Source Expression: (!rg)
+
+
+Warning-[SV-ICHU] Illegal class handle usage
+/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/vcs/snps_reg.svh, 165
+$unit
+  Illegal '!' operator on class handle 'this.m_use_map'.
+  As per LRM(P1800-2009), section 8.4. only ==, !=, ===, !== and conditional 
+  operator are allowed operators on class handles.
+  Source Expression: (!this.m_use_map)
+
+
+Warning-[SV-ICHU] Illegal class handle usage
+/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/vcs/snps_reg.svh, 167
+$unit
+  Illegal '!' operator on class handle 'rg'.
+  As per LRM(P1800-2009), section 8.4. only ==, !=, ===, !== and conditional 
+  operator are allowed operators on class handles.
+  Source Expression: (!rg)
+
+Starting vcs inline pass...
+
+6 modules and 0 UDP read.
+recompiling package vcs_paramclassrepository
+recompiling package _vcs_DPI_package
+recompiling package uvm_pkg
+recompiling module decoder
+recompiling module intf
+recompiling module top
+All of 6 modules done
+rm -f _cuarc*.so _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
+g++ -w  -pipe -fPIC -DVCS -O -I/apps/vcsmx/vcs/U-2023.03-SP2/include    -c /apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/dpi/uvm_dpi.cc
+gcc  -w  -pipe -fPIC -DVCS -O -I/apps/vcsmx/vcs/U-2023.03-SP2/include    -fPIC -c -o uM9F1_0x2aB.o uM9F1_0x2aB.c
+if [ -x ../simv ]; then chmod a-x ../simv; fi
+g++  -o ../simv      -rdynamic  -Wl,-rpath='$ORIGIN'/simv.daidir -Wl,-rpath=./simv.daidir -Wl,-rpath=/apps/vcsmx/vcs/U-2023.03-SP2/linux64/lib -L/apps/vcsmx/vcs/U-2023.03-SP2/linux64/lib  -Wl,-rpath-link=./  uvm_dpi.o   objs/amcQw_d.o   _425_archive_1.so   SIM_l.o    uM9F1_0x2aB.o   rmapats_mop.o rmapats.o rmar.o rmar_nd.o  rmar_llvm_0_1.o rmar_llvm_0_0.o            -lvirsim -lerrorinf -lsnpsmalloc -lvfs    -lvcsnew -lsimprofile -luclinative /apps/vcsmx/vcs/U-2023.03-SP2/linux64/lib/vcs_tls.o   -Wl,-whole-archive  -lvcsucli    -Wl,-no-whole-archive       ./../simv.daidir/vc_hdrs.o    /apps/vcsmx/vcs/U-2023.03-SP2/linux64/lib/vcs_save_restore_new.o -ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+CPU time: 11.545 seconds to compile + .538 seconds to elab + .619 seconds to link
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP2_Full64; Runtime version U-2023.03-SP2_Full64;  Jan 12 09:47 2026
+UVM_INFO /apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_root.svh(402) @ 0: reporter [UVM/RELNOTES] 
+----------------------------------------------------------------
+UVM-1.2.Synopsys
+(C) 2007-2014 Mentor Graphics Corporation
+(C) 2007-2014 Cadence Design Systems, Inc.
+(C) 2006-2014 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+(C) 2013-2014 NVIDIA Corporation
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO @ 0: reporter [RNTST] Running test test...
+UVM_INFO scoreboard.sv(49) @ 1: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 2: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 3: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 4: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 5: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 6: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 7: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 8: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 9: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 10: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 11: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 12: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 13: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 14: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 15: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 16: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 17: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 18: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 19: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 20: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 21: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 22: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 23: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 24: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 25: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 26: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 27: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 28: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 29: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 30: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 31: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 32: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 33: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 34: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 35: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 36: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 37: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 38: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 39: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 40: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 41: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 42: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 43: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 44: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 45: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 46: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 47: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 48: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 49: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 50: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 51: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 52: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 53: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 54: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 55: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 56: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 57: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 58: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 59: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 60: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 61: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 62: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 63: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 64: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 65: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 66: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 67: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 68: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 69: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 70: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 71: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 72: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 73: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 74: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 75: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 76: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 77: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 78: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 79: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 80: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 81: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 82: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 83: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 84: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 85: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 86: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 87: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 88: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 89: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 90: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 91: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 92: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 93: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 94: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 95: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 96: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 97: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 98: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 99: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 100: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 101: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 102: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 103: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 104: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 105: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 106: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 107: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 108: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 109: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 110: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 111: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 112: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 113: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 114: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 115: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 116: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 117: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 118: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 119: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 120: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 121: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 122: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 123: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 124: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 125: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 126: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 127: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 128: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 129: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 130: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 131: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 132: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 133: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 134: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 135: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 136: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 137: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 138: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 139: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 140: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 141: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 142: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 143: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 144: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 145: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 146: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 147: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 148: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 149: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 150: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 151: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 152: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 153: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 154: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 155: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 156: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 157: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 158: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 159: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 160: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 161: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 162: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 163: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 164: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 165: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 166: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 167: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 168: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 169: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 170: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 171: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 172: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 173: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 174: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 175: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 176: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 177: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 178: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 179: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 180: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 181: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 182: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 183: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 184: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 185: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 186: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 187: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 188: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 189: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 190: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 191: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 192: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 193: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 194: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 195: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 196: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 197: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 198: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 199: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 200: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 201: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 202: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 203: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 204: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 205: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 206: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 207: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 208: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 209: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 210: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 211: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 212: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 213: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 214: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 215: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 216: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 217: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 218: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 219: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 220: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 221: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 222: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 223: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 224: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 225: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 226: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 227: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 228: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 229: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 230: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 231: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 232: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 233: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 234: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 235: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 236: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 237: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 238: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 239: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 240: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 241: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 242: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 243: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 244: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 245: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 246: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 247: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 248: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 249: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 250: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 251: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 252: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 253: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 254: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 255: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 256: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 257: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 258: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 259: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 260: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 261: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 262: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 263: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 264: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 265: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 266: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 267: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 268: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 269: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 270: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 271: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 272: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 273: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 274: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 275: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 276: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 277: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 278: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 279: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 280: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 281: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 282: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 283: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 284: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 285: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 286: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 287: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 288: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 289: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 290: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 291: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 292: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 293: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 294: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 295: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 296: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 297: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 298: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 299: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 300: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 301: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 302: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 303: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 304: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 305: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 306: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 307: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 308: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 309: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 310: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 311: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 312: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 313: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 314: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 315: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 316: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 317: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 318: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 319: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 320: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 321: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 322: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 323: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 324: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 325: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 326: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 327: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 328: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 329: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 330: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 331: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 332: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 333: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 334: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 335: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 336: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 337: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 338: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 339: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 340: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 341: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 342: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 343: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 344: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 345: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 346: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 347: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 348: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 349: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 350: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 351: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 352: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 353: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 354: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 355: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 356: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 357: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 358: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 359: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 360: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 361: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 362: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 363: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 364: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 365: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 366: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 367: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 368: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 369: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 370: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 371: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 372: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 373: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 374: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 375: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 376: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 377: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 378: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 379: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 380: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 381: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 382: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 383: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 384: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 385: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 386: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 387: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 388: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 389: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 390: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 391: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 392: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 393: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 394: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 395: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 396: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 397: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 398: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 399: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 400: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 401: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 402: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 403: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 404: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 405: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 406: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 407: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 408: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 409: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 410: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 411: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 412: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 413: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 414: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 415: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 416: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 417: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 418: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 419: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 420: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 421: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 422: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 423: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 424: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 425: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 426: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 427: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 428: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 429: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 430: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 431: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 432: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 433: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 434: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 435: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 436: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 437: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 438: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 439: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 440: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 441: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 442: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 443: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 444: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 445: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 446: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 447: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 448: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 449: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 450: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 451: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 452: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 453: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 454: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 455: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 456: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 457: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 458: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 459: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 460: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 461: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 462: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 463: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 464: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 465: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 466: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 467: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 468: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 469: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 470: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 471: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 472: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 473: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 474: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 475: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 476: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 477: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 478: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 479: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 480: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 481: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 482: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 483: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 484: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 485: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 486: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 487: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 488: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 489: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 490: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 491: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 492: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 493: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 494: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 495: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 496: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 497: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 498: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 499: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 500: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 501: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 502: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 503: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 504: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 505: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 506: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 507: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 508: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 509: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 510: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 511: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 512: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 513: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 514: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 515: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 516: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 517: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 518: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 519: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 520: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 521: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 522: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 523: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 524: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 525: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 526: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 527: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 528: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 529: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 530: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 531: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 532: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 533: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 534: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 535: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 536: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 537: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 538: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 539: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 540: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 541: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 542: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 543: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 544: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 545: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 546: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 547: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 548: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 549: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 550: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 551: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 552: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 553: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 554: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 555: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 556: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 557: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 558: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 559: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 560: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 561: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 562: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 563: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 564: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 565: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 566: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 567: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 568: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 569: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 570: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 571: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 572: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 573: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 574: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 575: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 576: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 577: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 578: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 579: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 580: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 581: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 582: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 583: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 584: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 585: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 586: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 587: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 588: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 589: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 590: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 591: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 592: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 593: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 594: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 595: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 596: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 597: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 598: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 599: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 600: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 601: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 602: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 603: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 604: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 605: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 606: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 607: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 608: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 609: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 610: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 611: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 612: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 613: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 614: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 615: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 616: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 617: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 618: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 619: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 620: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 621: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 622: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 623: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 624: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 625: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 626: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 627: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 628: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 629: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 630: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 631: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 632: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 633: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 634: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 635: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 636: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 637: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 638: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 639: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 640: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 641: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 642: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 643: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 644: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 645: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 646: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 647: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 648: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 649: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 650: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 651: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 652: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 653: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 654: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 655: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 656: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 657: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 658: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 659: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 660: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 661: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 662: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 663: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 664: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 665: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 666: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 667: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 668: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 669: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 670: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 671: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 672: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 673: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 674: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 675: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 676: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 677: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 678: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 679: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 680: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 681: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 682: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 683: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 684: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 685: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 686: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 687: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 688: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 689: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 690: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 691: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 692: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 693: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 694: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 695: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 696: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 697: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 698: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 699: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 700: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 701: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 702: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 703: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 704: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 705: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 706: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 707: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 708: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 709: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 710: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 711: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 712: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 713: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 714: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 715: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 716: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 717: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 718: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 719: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 720: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 721: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 722: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 723: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 724: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 725: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 726: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 727: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 728: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 729: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 730: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 731: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 732: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 733: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 734: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 735: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 736: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 737: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 738: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 739: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 740: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 741: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 742: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 743: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 744: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 745: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 746: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 747: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 748: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 749: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 750: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 751: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 752: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 753: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 754: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 755: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 756: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 757: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 758: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 759: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 760: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 761: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 762: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 763: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 764: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 765: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 766: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 767: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 768: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 769: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 770: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 771: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 772: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 773: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 774: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 775: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 776: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 777: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 778: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 779: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 780: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 781: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 782: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 783: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 784: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 785: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 786: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 787: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 788: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 789: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 790: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 791: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 792: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 793: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 794: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 795: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 796: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 797: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 798: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 799: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 800: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 801: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 802: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 803: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 804: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 805: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 806: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 807: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 808: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 809: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 810: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 811: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 812: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 813: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 814: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 815: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 816: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 817: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 818: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 819: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 820: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 821: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 822: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 823: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 824: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 825: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 826: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 827: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 828: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 829: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 830: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 831: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 832: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 833: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 834: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 835: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 836: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 837: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 838: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 839: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 840: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 841: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 842: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 843: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 844: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 845: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 846: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 847: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 848: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 849: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 850: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 851: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 852: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 853: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 854: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 855: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 856: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 857: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 858: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 859: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 860: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 861: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 862: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 863: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 864: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 865: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 866: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 867: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 868: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 869: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 870: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 871: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 872: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 873: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 874: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 875: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 876: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 877: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 878: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 879: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 880: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 881: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 882: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 883: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 884: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 885: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 886: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 887: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 888: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 889: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 890: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 891: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 892: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 893: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 894: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 895: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 896: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 897: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 898: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 899: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 900: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 901: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 902: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 903: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 904: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 905: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 906: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 907: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 908: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 909: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 910: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 911: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 912: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 913: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 914: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 915: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 916: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 917: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 918: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 919: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 920: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 921: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 922: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 923: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 924: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 925: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 926: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 927: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 928: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 929: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 930: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 931: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 932: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 933: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 934: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 935: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 936: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 937: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 938: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 939: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 940: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 941: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 942: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 943: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 944: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 945: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 946: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 947: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 948: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 949: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 950: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 951: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 952: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 953: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 954: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 955: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 956: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 957: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 958: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 959: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 960: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 961: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 962: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 963: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 964: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 965: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 966: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 967: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 968: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 969: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 970: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 971: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 972: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 973: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 974: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 975: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 976: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 977: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 978: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 979: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 980: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 981: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 982: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 983: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 984: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 985: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 986: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 987: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 988: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 989: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 990: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 991: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 992: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 993: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 994: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 995: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 996: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 997: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 998: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 999: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 1000: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 1001: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 1002: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 1003: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 1004: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 1005: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 1006: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 1007: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 1008: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 1009: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 1010: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 1011: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 1012: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 1013: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 1014: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 1015: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 1016: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 1017: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 1018: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 1019: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 1020: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 1021: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 1022: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 1023: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 1024: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 1025: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 1026: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 1027: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 1028: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 1029: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 1030: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 1031: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 1032: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 1033: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 1034: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 1035: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 1036: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 1037: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 1038: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 1039: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 1040: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 1041: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 1042: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 1043: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 1044: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 1045: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 1046: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 1047: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 1048: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 1049: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 1050: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 1051: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 1052: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 1053: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 1054: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 1055: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 1056: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 1057: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 1058: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 1059: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 1060: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 1061: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 1062: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 1063: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 1064: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 1065: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 1066: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 1067: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 1068: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 1069: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 1070: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 1071: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 1072: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 1073: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 1074: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 1075: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 1076: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 1077: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 1078: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 1079: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 1080: uvm_test_top.env.scb [SCB] PASS! expected=4 actual=4
+UVM_INFO scoreboard.sv(49) @ 1081: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 1082: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 1083: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 1084: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 1085: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 1086: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 1087: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 1088: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 1089: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 1090: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 1091: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 1092: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 1093: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 1094: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 1095: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 1096: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 1097: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 1098: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 1099: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 1100: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 1101: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 1102: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 1103: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 1104: uvm_test_top.env.scb [SCB] PASS! expected=128 actual=128
+UVM_INFO scoreboard.sv(49) @ 1105: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 1106: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 1107: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 1108: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 1109: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 1110: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 1111: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 1112: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 1113: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 1114: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 1115: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 1116: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 1117: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 1118: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 1119: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 1120: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 1121: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 1122: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 1123: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 1124: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 1125: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 1126: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 1127: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 1128: uvm_test_top.env.scb [SCB] PASS! expected=32 actual=32
+UVM_INFO scoreboard.sv(49) @ 1129: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 1130: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 1131: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 1132: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 1133: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 1134: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 1135: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 1136: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 1137: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 1138: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 1139: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 1140: uvm_test_top.env.scb [SCB] PASS! expected=16 actual=16
+UVM_INFO scoreboard.sv(49) @ 1141: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 1142: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 1143: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 1144: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 1145: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 1146: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 1147: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 1148: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 1149: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 1150: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 1151: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 1152: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 1153: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 1154: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 1155: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 1156: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 1157: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 1158: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 1159: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 1160: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 1161: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 1162: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 1163: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 1164: uvm_test_top.env.scb [SCB] PASS! expected=64 actual=64
+UVM_INFO scoreboard.sv(49) @ 1165: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 1166: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 1167: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 1168: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 1169: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 1170: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 1171: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 1172: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 1173: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 1174: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 1175: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 1176: uvm_test_top.env.scb [SCB] PASS! expected=8 actual=8
+UVM_INFO scoreboard.sv(49) @ 1177: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 1178: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 1179: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 1180: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 1181: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 1182: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 1183: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 1184: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 1185: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 1186: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 1187: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 1188: uvm_test_top.env.scb [SCB] PASS! expected=2 actual=2
+UVM_INFO scoreboard.sv(49) @ 1189: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 1190: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 1191: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 1192: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 1193: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 1194: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 1195: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 1196: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 1197: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 1198: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 1199: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO scoreboard.sv(49) @ 1200: uvm_test_top.env.scb [SCB] PASS! expected=1 actual=1
+UVM_INFO /apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_objection.svh(1276) @ 1200: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO /apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_report_server.svh(904) @ 1200: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO : 1203
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[RNTST]     1
+[SCB]  1200
+[TEST_DONE]     1
+[UVM/RELNOTES]     1
+
+$finish called from file "/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_root.svh", line 527.
+$finish at simulation time                 1200
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1200 ns
+CPU Time:      0.560 seconds;       Data structure size:   0.4Mb
+Mon Jan 12 09:47:46 2026
+Done
